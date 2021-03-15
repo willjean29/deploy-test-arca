@@ -16,7 +16,7 @@ import { EventsModule } from './events/events.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://pixie:pixie123@cluster0.g8kd3.mongodb.net/arcavirtual', {
+    MongooseModule.forRoot('mongodb+srv://pixie:pixie123@cluster0.g8kd3.mongodb.net/arca', {
       useCreateIndex: true,
       useFindAndModify: false,
     }), //initializing db

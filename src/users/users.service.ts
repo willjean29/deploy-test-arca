@@ -82,6 +82,7 @@ export class UsersService {
     const teacherCode: TeacherCode = await this.getTeacherCode(
       registerTeacherDto.registerCode,
     );
+    console.log(teacherCode);
     if (!teacherCode) return null;
     const school: School = await this.getSchool(registerTeacherDto.schoolName);
     if (!school) return null;

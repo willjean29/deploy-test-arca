@@ -72,6 +72,8 @@ export class UsersController {
 
   @Post('/login')
   async loginUser(@Res() res: Response, @Body() loginUserDto: LoginUserDto) {
+    console.log("login");
+    console.log(loginUserDto)
     const user: Student | Teacher = await this.userService.loginUser(
       loginUserDto,
     );
@@ -115,6 +117,8 @@ export class UsersController {
     @Res() res: Response,
     @Body() teacherRegisterCode: TeacherCodeDto,
   ) {
+    console.log("endpoint code");
+    console.log(teacherRegisterCode);
     const teacherCode = await this.userService.addTeacherRegisterCode(
       teacherRegisterCode,
     );
