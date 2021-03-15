@@ -1,0 +1,16 @@
+export enum EjercicioErrors {
+  TYPE = 'Tipo incorrecto',
+  TITLE = 'Titulo incorrecto',
+  DESCRIPTION = 'Descripcion incorrecta',
+  LEVEL = 'Nivel incorrecto',
+  GRADE = 'Grado incorrecto',
+  COURSE = 'Curso incorrecto',
+  PREVIEW = 'Imagen incorrecta',
+  CAPABILITY = 'Competencia incorrecta',
+  CAPACITY = 'Capacidad incorrecta',
+  PERFORMANCE = 'Desempeño incorrecto',
+  DATE = 'Fecha incorrecta',
+  NUMBER = 'Numero incorrecto',
+  USER = 'User ID incorrecto',
+  ACTIVE = 'Estado del ejercicio incorrecto',
+}

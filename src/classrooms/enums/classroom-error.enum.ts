@@ -1,0 +1,23 @@
+export enum ClassroomError {
+  STUDENTS = 'Estudiantes erroneos',
+  CLASSROOM = 'Salones erroneos',
+  TOPICS = 'Temas erroneos',
+  COLOR = 'Color erroneo',
+  TEACHER = 'Profesor erroneo',
+  COURSE = 'Curso erroneo',
+  SCHOOL = 'Colegio erroneo',
+  GRADE = 'Grado erroneo',
+  SECTION = 'Seccion erronea',
+  LEVEL = 'Nivel erroneo',
+  INSIGNIA = 'Insignia erronea',
+  CLASSROOM_ID = 'Id de salon invalido',
+  STUDENT_ID = 'Id de estudiante invalido',
+  AUTHOR = 'Autor inválido',
+  COMMENT = 'Comentario inválido',
+  DATE = 'Fecha inválida',
+  NAME = 'Nombre inválido',
+  TYPE = 'Tipo incorrecto',
+  PROFILE_IMG = 'Foto incorrecta',
+  FILE = 'Archivo incorrecto',
+  LINK="Link incorrecto"
+}
